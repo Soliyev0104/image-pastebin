@@ -30,7 +30,7 @@ services:
       REDIS_URL: redis://redis:6379/0
       IMAGE_SERVICE_ADDR: image_service:50051
       IMAGES_DIR: /images
-      PUBLIC_BASE_URL: http://YOUR_DROPLET_IP
+      PUBLIC_BASE_URL: http://164.90.191.172
     volumes:
       - images_data:/images
     depends_on:
